@@ -1,0 +1,20 @@
+{
+  "name": "__MSG_extName__",
+  "description": "__MSG_extDescription__",
+  "version": "0.1.0",
+  "default_locale": "en",
+  "manifest_version": 3,
+  "icons": {
+    "128": "128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.db.yugioh-card.com/yugiohdb/member_deck.action*"
+      ],
+      "js": ["dist/index.es.js"],
+      "css": ["./style.css"]
+    }
+  ],
+  "permissions": ["scripting"]
+}

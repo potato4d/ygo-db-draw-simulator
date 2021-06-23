@@ -1,0 +1,21 @@
+{
+  "name": "tameshi-draw",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "format": "prettier './src/**/*.{ts,tsx}' --write"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "^1.2.3",
+    "@vitejs/plugin-vue-jsx": "^1.1.5",
+    "@vue/compiler-sfc": "^3.0.11",
+    "typescript": "^4.3.2",
+    "vite": "^2.3.6",
+    "vue": "^3.0.11"
+  },
+  "devDependencies": {
+    "@elevenback/prettier-config": "^0.1.1",
+    "prettier": "^2.3.0"
+  }
+}

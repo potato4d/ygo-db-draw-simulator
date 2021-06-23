@@ -1,0 +1,61 @@
+.extension-root {
+  padding: 0 0 0 7px;
+}
+
+.extension-root__header {
+  padding-right: 7px;
+}
+
+.extension-root__heading {
+  font-size: 14px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  height: 29px;
+  border: solid #555 2px;
+  background: #888888;
+  padding: 2px 2px 2px 6px;
+}
+
+.extension-root__main {
+  padding: 2px 0 20px;
+  min-height: 160px;
+}
+
+.extension-root__main ul,
+.extension-root__main li {
+  margin: 0;
+}
+
+.extension-root__main ul {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+
+.extension-root__footer {
+  padding-bottom: 60px;
+}
+
+.extension-root__footer button {
+  appearance: none;
+  border: 0;
+  border-radius: 2px;
+  color: #fff;
+  width: 120px;
+  height: 32px;
+  margin-right: 10px;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.3);
+  font-size: 13px;
+  cursor: pointer;
+  background: radial-gradient(circle closest-corner at center -400%, #F8B600, #F8B600 100%, #F88F00 50%, #F88F00);
+  border-radius: 3px;
+  box-shadow: 2px 2px 2px rgb(0 0 0 / 40%);
+}
+
+.extension-root__footer button:hover {
+  opacity: 0.8;
+}
