@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>遊戯王オフィシャルデータベース ドローシミュレーター</title>
+  <meta name="description" content="遊戯王公式データベースに『おためし5枚ドロー』の機能を追加できる拡張機能です。">
+
+  <meta property="og:site_name" content=">遊戯王オフィシャルデータベース ドローシミュレーター">
+  <meta property="og:url" content="https://ygo-db-draw-simulator.web.app/">
+  <meta property="og:image" content="https://ygo-db-draw-simulator.web.app/brand.png">
+  <meta property="og:image:secure_url" content="https://ygo-db-draw-simulator.web.app/brand.png">
+  <meta name="twitter:description" content="遊戯王公式データベースに『おためし5枚ドロー』の機能を追加できる拡張機能です。">
+  <meta name="twitter:title" content=">遊戯王オフィシャルデータベース ドローシミュレーター">
+  <meta name="twitter:image" content="https://ygo-db-draw-simulator.web.app/brand.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="author" content="potato4d">
+  <link rel="icon" type="image/jpeg" href="/icon.jpg">
+
+  <link rel="stylesheet" href="./tailwind.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    a {
+      color: rgba(59, 130, 246, 1);
+      text-decoration: underline;
+    }
+
+    a:hover {
+      color: rgba(37, 99, 235, 1);
+    }
+
+    #root {
+      font-family: 'M PLUS 1p', sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="root" class="mx-auto container max-w-screen-md px-2 md:px-0">
+    <header class="text-center w-full py-4">
+      <div class="flex items-center justify-between container">
+        <div class="flex items-center justify-start">
+          <img src="./icon.jpg" width="60" height="60" class="rounded-sm" alt="">
+          <div class="text-gray-800 text-left pl-2">
+            <h1 class="font-bold">ドローシミュレーター</h1>
+            <p class="mt-1 ml-1 text-xs">for 遊戯王オフィシャルデータベース</p>
+          </div>
+        </div>
+        <a href="https://chrome.google.com/webstore/detail/yu-gi-oh-official-databas/ejjpkjcmmdbhadaanbpfonfobfkopedi"
+          target="_blank"
+          class="text-xs font-bold text-white bg-red-400 rounded px-3 py-2 no-underline hover:text-white hover:bg-red-500">
+          ダウンロード
+        </a>
+      </div>
+    </header>
+
+    <p>
+      <img src="https://i.gyazo.com/44e72b63ea8aed1361f09a081cf87e3c.png" class="rounded-sm" width="2400" />
+    </p>
+
+    <section class="my-8">
+      <h1 class="text-xl font-bold pb-4">このツールについて</h1>
+      <div class="leading-loose text-gray-800">
+        <p>遊戯王公式データベースに『おためし5枚ドロー』の機能を追加できる拡張機能です。</p>
+        <p>確率計算などを行っていても、実際にドローしてみないと体感値や細かな動きはわからないもの。ドローのシミュレーションをともなう調整のおともにぜひ。</p>
+      </div>
+    </section>
+
+    <section class="my-8 mt-12">
+      <h1 class="text-xl font-bold pb-4">インストール方法</h1>
+      <img src="https://i.gyazo.com/9d69b9516bb7cb49cfb265d97ba4c5cf.png" alt="" class="rounded-sm">
+      <div class="leading-loose text-gray-800">
+        <p><a
+            href="https://chrome.google.com/webstore/detail/yu-gi-oh-official-databas/ejjpkjcmmdbhadaanbpfonfobfkopedi/related"
+            target="_blank">Chrome Web Store</a> にてインストールできます。</p>
+        <p>上記のリンクよりアクセスし、『Chrome へ追加』より導入してください。インストールが完了したら、自動で拡張機能が有効化されます。</p>
+      </div>
+    </section>
+
+    <section class="my-8 mt-12">
+      <h1 class="text-xl font-bold pb-4">つかいかた</h1>
+      <img src="https://i.gyazo.com/86317f7587bba01599a367397b4df7d4.gif" class="rounded-sm" width="978" />
+      <div class="leading-loose pt-4 text-gray-800">
+        <p>拡張機能の導入後、遊戯王公式データベースのデッキ表示ページへとアクセスすると、サイドデッキの下に<b class="font-bold">『おためし5枚ドロー』</b>が追加されています。</p>
+        <p>アクセスした時点でメインデッキからランダムに5枚ピックされていますが、必要に応じて『5枚ドロー』による再抽選や、『+1枚引く』をご活用ください。</p>
+      </div>
+    </section>
+
+    <section class="my-8 mt-12">
+      <h1 class="text-xl font-bold pb-4">連絡先</h1>
+      <div class="leading-loose pt-4 text-gray-800">
+        <p>本ツールに関する質問・お問い合わせなどは Twitter アカウント <a href="https://twitter.com/potato4d" target="_blank">@potato4d</a>
+          にて受け付けています。不具合に関する問い合わせから機能要望まで、お気軽にご連絡ください。</p>
+        <p>また、もしあなたがプログラマであれば、バグ報告は <a href="https://github.com/potato4d/ygo-db-draw-simulator"
+            target="_blank">GitHub</a> の Issue へと起票いただけますと幸いです。</p>
+      </div>
+    </section>
+
+    <footer class="text-center mt-16 pb-8 text-xs">
+      &copy; 2021 <a class="underline text-blue-600" href="https://twitter.com/potato4d">@potato4d</a>
+    </footer>
+  </div>
+</body>
+
+</html>

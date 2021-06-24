@@ -4,7 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "format": "prettier './src/**/*.{ts,tsx}' --write"
+    "format": "prettier './src/**/*.{ts,tsx}' --write",
+    "site:build-css": "env NODE_ENV='production' tailwindcss -o ./public/tailwind.css",
+    "site:watch-css": "tailwindcss -o ./public/tailwind.css --watch"
   },
   "dependencies": {
     "@vitejs/plugin-vue": "^1.2.3",
@@ -16,6 +18,10 @@
   },
   "devDependencies": {
     "@elevenback/prettier-config": "^0.1.1",
-    "prettier": "^2.3.0"
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.5",
+    "postcss-cli": "^8.3.1",
+    "prettier": "^2.3.0",
+    "tailwindcss": "^2.2.4"
   }
 }
