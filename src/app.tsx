@@ -16,7 +16,7 @@ export const App = defineComponent({
   created() {
     this.all = Array.from(
       document.querySelectorAll(
-        '#deck_image .image_set > a'
+        '#deck_image #main .image_set > a'
       )
     ).map((el) => {
       return {
