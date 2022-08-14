@@ -3,3 +3,5 @@ tailwind.css
 .firebase
 .firebaserc
 firebase.json
+dist
+node_modules

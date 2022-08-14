@@ -1,6 +1,6 @@
 {
   "name": "tameshi-draw",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -19,6 +19,7 @@
   "devDependencies": {
     "@elevenback/prettier-config": "^0.1.1",
     "autoprefixer": "^10.2.6",
+    "firebase-tools": "^10.1.2",
     "postcss": "^8.3.5",
     "postcss-cli": "^8.3.1",
     "prettier": "^2.3.0",

@@ -16,7 +16,7 @@ export const App = defineComponent({
   created() {
     this.all = Array.from(
       document.querySelectorAll(
-        '#deck_image table:nth-child(2) > tbody > tr td > a'
+        '#deck_image .image_set > a'
       )
     ).map((el) => {
       return {
@@ -54,8 +54,11 @@ export const App = defineComponent({
   render() {
     return (
       <section class="extension-root">
-        <header class="extension-root__header">
-          <h2 class="extension-root__heading">おためし5枚ドロー</h2>
+        <header class="subcatergory">
+        <div class="icon hex"><span></span></div>
+          <div class="top">
+            <h3>おためし5枚ドロー</h3>
+          </div>
         </header>
         <div class="extension-root__main">
           <ul>
@@ -71,19 +74,21 @@ export const App = defineComponent({
         <div class="extension-root__footer">
           <button
             type="button"
+            class="btn hex orn"
             onClick={() => {
               this.reset()
             }}
           >
-            5枚ドロー
+            <span>5枚ドロー</span>
           </button>
           <button
             type="button"
+            class="btn hex orn"
             onClick={() => {
               this.addOne()
             }}
           >
-            +1枚引く
+            <span>+1枚引く</span>
           </button>
         </div>
       </section>
